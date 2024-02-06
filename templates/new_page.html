@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Page</title>
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/submit-page.css') }}" rel="stylesheet">
+
+    <!-- ... other CSS files ... -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                    <img src="static\images\classer_crop.png" width=220px height=60px>            
+            </a>
+        </div>
+    </nav>
+
+    <div class="belownav">
+        <div class="product-details">
+            <!-- Content for the first flex item goes here -->
+            <img src="static\images\All about Customer Churn Analysis in just 3 Minutes (1).jpg" alt="p_img" >
+            <div class="bottom-left"><p>{{ Name }}</p></div>
+        </div>
+        <div class="selection-menu">
+            <!-- Content for the second flex item goes here -->
+            <p>Second Flex Item for options </p>
+        </div>
+    </div>
+    <br>
+    <h2>CSV Data</h2>
+    {{ csv_data|safe }}
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}?v=1.0">
+    <script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/click-scroll.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+</html>

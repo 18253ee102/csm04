@@ -1,0 +1,50 @@
+/* submit-page.css */
+
+/* Style for navigation bar background color */
+html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+}
+html::-webkit-scrollbar{ 
+    display: none;  /* Safari and Chrome */
+}
+.navbar {
+    background-color: #27277e; /* Replace with your preferred shade of blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.belownav {
+    display: flex;
+    position: relative;
+}
+
+.product-details{
+    /* You can add styles for each flex item if needed */
+    background-color: aqua;
+    width: 550px; /* Set the width of the container */
+    height: 250px;
+}
+
+.product-details img{
+    width: 550px; /* Make the image fill the width of the container */
+    height: 250px; /* Maintain aspect ratio */
+    display: block;
+}
+
+.bottom-left {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    bottom: 10px;
+    left: 15px;
+}
+
+.selection-menu{
+    /* You can add styles for each flex item if needed */
+    background-color: rgb(18, 247, 26);
+    width: 850px; /* Set the width of the container */
+    height: 250px;
+
+}
+
+/* Additional styles for the page if needed */

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Classer</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+        
+
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/bootstrap-icons.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/templatemo-topic-listing.css') }}" rel="stylesheet">
+<!--
+
+TemplateMo 590 topic listing
+
+https://classer.com
+
+-->
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="static\images\classer_crop.png"  width=220px height=60px >  
+                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                            </li>
+
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <header class="site-header d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+
+                        <div class="col-lg-5 col-12 mb-5">
+
+                            <h2 class="text-white">Get your review report here!!</h2>
+
+                            <div class="d-flex align-items-center mt-5">
+                                <a href="#topics-detail" class="btn custom-btn custom-border-btn smoothscroll me-4">Read More</a>
+
+                                <a href="#top" class="custom-icon bi-bookmark smoothscroll"></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-12">
+                            <div class="topics-detail-block bg-white shadow-lg">
+                                <img src="static/images/topics/undraw_Remote_design_team_re_urdx.png" class="topics-detail-block-image img-fluid">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+
+            <section class="topics-detail-section section-padding" id="topics-detail">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 m-auto">
+                            <h3 class="mb-4">Introduction to Classer</h3>
+
+                            <p>Welcome to Classer, your go-to platform for discerning genuine product feedback from deceptive or fake reviews. 
+                                At Classer, we understand the challenges consumers face when navigating the vast landscape of online reviews. 
+                                That's why we've developed an innovative solution that leverages advanced algorithms to classify and filter reviews with unparalleled accuracy.</p>
+
+                            <blockquote>
+                                "Reviews analyzed. Decisions made confidently."
+                            </blockquote>
+
+                            <div class="row my-4">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <img src="static/images/businesswoman-using-tablet-analysis.jpg" class="topics-detail-block-image img-fluid">
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12 mt-4 mt-lg-0 mt-md-0">
+                                    <img src="static/images/colleagues-working-cozy-office-medium-shot.jpg" class="topics-detail-block-image img-fluid">
+                                </div>
+                            </div>
+
+                            <p>Our website employs cutting-edge technology to analyze review patterns, linguistic cues, and 
+                                sentiment indicators, enabling us to identify and categorize fake reviews with precision. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-padding section-bg">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-5 col-12">
+                            <img src="static/images/rear-view-young-college-student.jpg" class="newsletter-image img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-5 col-12 subscribe-form-wrap d-flex justify-content-center align-items-center">
+                            <form class="custom-form subscribe-form" action="#" method="post" role="form">
+                                <h4 class="mb-4 pb-2">Get Newsletter</h4>
+
+                                <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" required="">
+
+                                <div class="col-lg-12 col-12">
+                                    <button type="submit" class="form-control">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+		
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="index.html">
+                            <img src="static/images/classer_blue.png"  width=220px height=60px>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h6 class="site-footer-title mb-3">Resources</h6>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Home</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">How it works</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">FAQs</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Information</h6>
+
+                        <p class="text-white d-flex mb-1">
+                            
+                            <p>Major Project</p>
+                            
+                        </p>
+
+                        <p class="text-white d-flex">
+                            
+                                <p>CSM | Team-04</p>
+                            
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                        
+
+                        <p class="copyright-text mt-lg-5 mt-4">Copyright © CSM || Team-04 || MLRIT.
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}?v=1.0">
+        <script src="{{ url_for('static', filename='js/jquery.sticky.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/click-scroll.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+    </body>
+</html>
